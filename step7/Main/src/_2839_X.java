@@ -1,13 +1,13 @@
 import java.util.Scanner;
 
-public class _2839 {
+public class _2839_X {
 public static void main(String[] args) {
 
 	Scanner in = new Scanner(System.in);
 
 	int n = in.nextInt(); // n킬로그램
 
-	if((n/5) < 1 ||  (n/3) <1) {
+	if((n/5) < 1 ||  (n/3) <1) { 
 		System.out.println((n%5)/3);
 		System.out.println("-1");
 	}
