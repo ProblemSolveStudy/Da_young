@@ -1,8 +1,4 @@
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=tmdsid0905)](https://solved.ac/tmdsid0905/)
-[![Solved.ac
-프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj={tmdsid0905})](https://solved.ac/{tmdsid0905})
-
-![mazandi profile](http://mazandi.herokuapp.com/api?tmdsid0905={tmdsid0905}&theme=warm)
 
 
 ![Java](https://img.shields.io/badge/Java-007396.svg?&style=for-the-badge&logo=Java&logoColor=white)
