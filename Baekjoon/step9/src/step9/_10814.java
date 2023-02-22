@@ -10,21 +10,24 @@ public class _10814 {
 		Scanner in = new Scanner(System.in);
 		
 		int n = in.nextInt();
-		int arr[][]  = new int[n][2];
-		
-		for(int i=0; i<n; i++) {
-			arr[][2]= in.nextInt();
+		String arr[][]  = new String[n][2];
 			
-			Arrays.sort(arr,new Comparator<String>() {
+			for(int i = 0; i < n; i++) {
+				arr[i][0] = in.next();	// 나이
+				arr[i][1] = in.next();	// 이름
+			}
+			
+			Arrays.sort(arr, new Comparator<String[]>() {
+
 				@Override
-				public int compare(String s1, String s2) {
-					if(s1.length() == s2.length()) {
-						return s1.compareTo(s2);
-					} else {
-						return s1.length() - s2.length();
-					}
+				public int compare(String[] o1, String[] o2) {
+					return Integer.parseInt(o1[0]) - Integer.parseInt(o2[0]);
+				}
+			});
 			
-			
+			for(int i=0; i<n; i++) {
+				System.out.println(arr[i][0] + " " + arr[i][1]);
+			}
 		}
 		
 	
