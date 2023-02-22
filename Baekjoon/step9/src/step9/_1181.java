@@ -12,7 +12,7 @@ public class _1181 {
 		int N = sc.nextInt();
 		String arr[]  = new String[N];
 		sc.nextLine();
-		
+		 
 		for (int i = 0; i < N; i++) {
 			arr[i] = sc.nextLine();
 		}
