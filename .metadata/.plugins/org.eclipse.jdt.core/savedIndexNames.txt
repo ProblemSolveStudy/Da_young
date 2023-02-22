@@ -1,0 +1,9 @@
+INDEX VERSION 1.131+C:\Users\LUCKY\Desktop\upload\Da_young\.metadata\.plugins\org.eclipse.jdt.core
+94333073.index
+3883950653.index
+101581449.index
+3939699067.index
+1314051536.index
+2928098510.index
+1228870089.index
+3649047640.index

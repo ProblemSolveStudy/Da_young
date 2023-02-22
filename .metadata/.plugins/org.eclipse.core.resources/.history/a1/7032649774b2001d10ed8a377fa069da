@@ -1,0 +1,66 @@
+package step9;
+
+import java.util.Scanner;
+
+public class pro {
+
+	public static void main(String[] args) {
+		 boolean run = true;
+	      
+		 	Scanner in = new Scanner(System.in);
+	      
+	      int students = 0;
+	      while(run) {
+	         System.out.println("------------------------------------------------------");
+	         System.out.println("1.학생수 | 2.점수입력 | 3.점수리스트 | 4.분석 | 5.종료");
+	         System.out.println("------------------------------------------------------");
+	         System.out.print("선택> ");
+	         
+	         int Num = in.nextInt();
+	         int max = 0;
+	         int sum = 0;
+	         	         
+	         switch(Num) {
+	         case 1 :
+	            System.out.print("학생수> ");
+	            students = in.nextInt();
+	            break;
+	         case 2 :
+	      
+	            for(int i=0; i<students; i++) {
+	            	int scores[] = new int[students];
+	            	scores[i] = in.nextInt(); 
+	            	System.out.println("scores["+i+"]: " + scores[i]);
+	            }
+	            break;
+//	         case 3 :
+//	            for(int i =0; i<students; i++) {
+//	            	System.out.println("scores["+i+"]: " + scores[i]);
+//	               
+//	               }
+//	            
+//	            break;
+//	            
+//	         case 4 :
+//	            scores = new int[] {in.nextInt()};
+//	            for(int i=0; i<students; i++) {
+//	               if(scores[i]>max) {
+//	                  max = scores[i];
+//	               }
+//	            }
+//	            System.out.println("최고 점수: " + max);
+//	            for(int i=0; i<students; i++) {
+//	               sum += scores[i];
+//	            }
+//	            double avg = (double) sum / scores.length;
+//	            System.out.println("평균 점수: " + avg);
+//	            break;
+//	         case 5 :
+//	            run = false;
+//	            break;
+	      }
+	         System.out.println();
+	   }
+	      System.out.println("프로그램 종료");
+	}
+	}
