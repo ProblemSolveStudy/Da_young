@@ -1,0 +1,26 @@
+package step9;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class _25305 {
+public static void main(String[] args) {
+
+		Scanner in = new Scanner(System.in);
+
+
+		int n = in.nextInt(); // 응시자 수
+		int k = in.nextInt(); // 상 받은 사람 수 
+		int[] arr = new int[n];
+		int anw = 0; 
+		
+		for(int i=0; i<n; i++) {
+			arr[i] = in.nextInt();
+		}
+		Arrays.sort(arr);
+		arr[k-1] = anw;
+		
+		System.out.println(anw);
+	}
+
+}

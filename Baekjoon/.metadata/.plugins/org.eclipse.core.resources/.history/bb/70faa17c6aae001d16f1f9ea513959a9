@@ -1,0 +1,12 @@
+package step7;
+
+public class sqrt {
+
+	public static void main(String[] args) {
+
+		double result = Math.sqrt(25);
+		System.out.println("25ÀÇ Á¦°ö±Ù: " + result);
+		
+	}
+
+}
