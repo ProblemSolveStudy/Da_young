@@ -1,0 +1,15 @@
+package step8;
+
+public class sqrt {
+
+	public static void main(String[] args) {
+
+		System.out.println("9ÀÇ Á¦°ö±Ù : " + Math.sqrt(9));				
+		System.out.println("20ÀÇ Á¦°ö±Ù : " + Math.sqrt(20));				
+		System.out.println("50ÀÇ Á¦°ö±Ù : " + Math.sqrt(50));					
+		System.out.println("100ÀÇ Á¦°ö±Ù : " + Math.sqrt(100));
+		System.out.println("-1ÀÇ Á¦°ö±Ù : " + Math.sqrt(-1));
+
+	}
+
+}
